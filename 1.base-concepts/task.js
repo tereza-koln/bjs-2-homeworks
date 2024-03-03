@@ -7,7 +7,6 @@ function solveEquation(a, b, c) {
 
 	 if (discriminant === 0) {
 		let root = -b / (2 * a);
-		let arr = []
 		arr.push(+root.toFixed(2));
 	} else if (discriminant > 0) {
 		let root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
@@ -17,7 +16,7 @@ function solveEquation(a, b, c) {
 	}  else {
     arr = [];
   }  
-  
+
 	return arr;
 }
 
