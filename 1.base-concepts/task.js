@@ -14,11 +14,11 @@ function solveEquation(a, b, c) {
 		arr = [];
 		arr.push(+root1.toFixed(2), +root2.toFixed(2));
 	}  else {
-    arr = [];
+		 arr = [];
   }  
 
 	return arr;
-}
+  }
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 
@@ -29,4 +29,4 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 
 	return totalAmount;
 
-}
+ }
