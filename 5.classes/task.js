@@ -1,4 +1,3 @@
-//задача 1
 class PrintEditionItem {
 	constructor(name, releaseDate, pagesCount) {
 		this.name = name;
@@ -103,8 +102,8 @@ class Library {
 
 const library = new Library("Центральная городская библиотека");
 
-const novel = new DetectivelBook("Эдгар Аллан По", "Падение дома Ашеров", 1839, 68);
-const magazine = new NovelBook("Франц Кафка", "Превращение" 1912, 416);
+const detective = new DetectiveBook("Эдгар Аллан По", "Падение дома Ашеров", 1839, 68);
+const novel = new NovelBook("Франц Кафка", "Превращение", 1912, 416);
 library.addBook(detective);
 library.addBook(novel);
 
@@ -115,7 +114,7 @@ if (!bookOf1919Year) {
 }
 
 
-const givenBook = library.giveBookByName("Превращение");
+const givenBook = library.giveBookByName("Падение дома Ашеров");
 givenBook.state = 10;
 
 givenBook.fix();
